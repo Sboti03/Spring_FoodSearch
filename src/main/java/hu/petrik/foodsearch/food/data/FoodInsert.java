@@ -1,4 +1,4 @@
-package hu.petrik.foodsearch.food;
+package hu.petrik.foodsearch.food.data;
 
 import lombok.RequiredArgsConstructor;
 import lombok.SneakyThrows;

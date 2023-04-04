@@ -1,4 +1,4 @@
-package hu.petrik.foodsearch.food;
+package hu.petrik.foodsearch.food.data;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
@@ -20,7 +20,7 @@ public class Food {
     @Column(unique = true)
     private String name;
 
-    @Column(nullable = true)
+    @Column
     private String description;
 
     @Column
